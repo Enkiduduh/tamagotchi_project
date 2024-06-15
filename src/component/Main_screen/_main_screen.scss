@@ -4,19 +4,37 @@
   align-items: center;
   height: 500px;
   .wrapper-left {
-    width: 200px;
+    width: 30px;
     height: 420px;
     background:$primary-color;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
   .wrapper-center {
     width: 400px;
     height: 420px;
     background:$tertiary-color;
-   
+    display: flex;
+    flex-direction: column;
+    .screen-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+      border: 1px solid $secondary-color;
+      margin: 8px;
+      .screen {
+        width: 350px;
+        height:250px;
+        background: grey;
+      }
+    }
   }
   .wrapper-right {
-    width: 200px;
+    width: 30px;
     height: 420px;
     background:$primary-color;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 }
