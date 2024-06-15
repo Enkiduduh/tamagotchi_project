@@ -1,0 +1,16 @@
+.button-commands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .button-commands-wrapper-left,
+  .button-commands-wrapper-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+  }
+  .button-commands-wrapper-central {
+    display: flex;
+    flex-direction: column;
+  }
+}
