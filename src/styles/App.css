@@ -44,6 +44,34 @@
   width: 350px;
   height: 250px;
   background: grey;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+.main_screen-container .wrapper-center .screen-container .screen .screen-left {
+  width: 80px;
+  background: red;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main_screen-container .wrapper-center .screen-container .screen .screen-center {
+  width: 220px;
+  background: green;
+}
+.main_screen-container .wrapper-center .screen-container .screen .screen-right {
+  width: 60px;
+  background: red;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .main_screen-container .wrapper-right {
   width: 30px;
@@ -68,4 +96,65 @@
 .button-commands .button-commands-wrapper-central {
   display: flex;
   flex-direction: column;
+}
+
+.gauge-container {
+  width: 75px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.gauge-container .gauge-name {
+  font-family: "Tiny5", sans-serif;
+  height: 20px;
+}
+.gauge-container .gauge-visual-container {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gauge-container .gauge-visual-container .gauge-background {
+  background: black;
+  width: 56px;
+  height: 10px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+.gauge-container .gauge-visual-container .gauge-background .gauge {
+  background: rgb(22, 140, 22);
+  height: 10px;
+  border-radius: 15px;
+}
+
+.mood-container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mood-container .mood-name {
+  font-family: "Tiny5", sans-serif;
+}
+.action_command-container {
+  width: 75px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.action_command-container .action_command-name {
+  font-family: "Tiny5", sans-serif;
+  height: 20px;
+}
+.action_command-container .action_command-visual-container {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=App.css.map */

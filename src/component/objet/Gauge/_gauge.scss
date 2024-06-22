@@ -1,0 +1,32 @@
+.gauge-container {
+  width: 75px;
+  height: 40px;
+  // border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  .gauge-name {
+    font-family: $primary-text;
+    height: 20px;
+  }
+  .gauge-visual-container {
+    height: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    .gauge-background {
+      background: $secondary-color;
+      width: 56px;
+      height: 10px;
+      border: 2px solid $tertiary-color;
+      border-radius: 15px;
+      .gauge {
+        background: $sub-color;
+        height: 10px;
+        border-radius: 15px;
+      }
+    }
+  }
+}

@@ -6,14 +6,14 @@
   .wrapper-left {
     width: 30px;
     height: 420px;
-    background:$primary-color;
+    background: $primary-color;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
   .wrapper-center {
     width: 400px;
     height: 420px;
-    background:$tertiary-color;
+    background: $tertiary-color;
     display: flex;
     flex-direction: column;
     .screen-container {
@@ -25,15 +25,43 @@
       margin: 8px;
       .screen {
         width: 350px;
-        height:250px;
+        height: 250px;
         background: grey;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        border:3px solid black;
+        .screen-left {
+          width: 80px;
+          background : red;
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+        .screen-center {
+          width: 220px;
+          background : green;
+        }
+        .screen-right {
+          width: 60px;
+          background : red;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+        }
       }
     }
   }
   .wrapper-right {
     width: 30px;
     height: 420px;
-    background:$primary-color;
+    background: $primary-color;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
   }

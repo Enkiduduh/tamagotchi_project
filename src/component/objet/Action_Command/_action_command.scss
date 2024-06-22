@@ -1,0 +1,19 @@
+.action_command-container {
+  width: 75px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  .action_command-name {
+    font-family: $primary-text;
+    height: 20px;
+  }
+  .action_command-visual-container {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
